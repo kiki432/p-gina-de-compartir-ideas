@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+</html>
+    <meta charset="UTF-8">
+    <title>Compartir Ideas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- styles.css está en el mismo directorio -->
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Comparte tu Idea</h1>
+        <textarea id="ideaInput" placeholder="Escribe tu idea aquí..."></textarea>
+        <button onclick="postIdea()">Compartir</button>
+
+        <div class="idea-section">
+            <h2>Ideas compartidas</h2>
+            <div id="ideaList"></div> <!--Lugar donde aparecerán las ideas -->
+        </div>
+    </div>
+</body>
+</html>

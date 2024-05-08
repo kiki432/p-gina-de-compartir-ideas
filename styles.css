@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente de la página */
+}
+
+.container {
+    width: 60%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espaciado interno */
+}
+
+textarea {
+    width: 100%; /* Ancho del área de texto */
+    height: 100px; /* Altura del área de texto */
+}
+
+button {
+    padding: 10px; /* Espaciado interno del botón */
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el cursor */
+}
+
+.idea {
+    background-color: #f2f2f2; /* Fondo para las ideas compartidas */
+    padding: 10px; /* Espaciado interno de las ideas */
+    border: 1px solid #ccc; /* Borde de las ideas */
+    margin-top: 10px; /* Espaciado entre ideas */
+}
+
+.hidden {
+    display: none; /* Para ocultar elementos */
+}
